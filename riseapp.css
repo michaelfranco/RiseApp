@@ -1,0 +1,50 @@
+{
+  color: blue;
+}
+
+div {
+  color: #f0f0f0;
+}
+
+header {
+font-family: GothamBook;
+color: #7FD0EC !important;
+}
+
+h2 {
+    position: absolute;
+    padding: 10px;
+
+}
+
+h3 {
+  float: right;
+}
+
+.jumbotron {
+  background-image: url('https://images.unsplash.com/photo-1456324504439-367cee3b3c32?crop=entropy&dpr=2&fit=crop&fm=jpg&h=700&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1300');
+  background-size: cover;
+  height: 500px;
+}
+
+nav {
+display: flex;
+  justify-content: flex-end;
+}
+
+
+.open {
+
+}
+
+.features {
+
+}
+
+.quotes {
+
+}
+
+.finalCall {
+
+}
