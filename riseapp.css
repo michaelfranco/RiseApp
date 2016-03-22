@@ -1,20 +1,15 @@
-{
-  color: blue;
-}
-
-div {
-  color: #f0f0f0;
-}
-
 header {
 font-family: GothamBook;
 color: #7FD0EC !important;
 }
 
-h2 {
-    position: absolute;
-    padding: 10px;
+.your {
+  padding-top: 100px;
+  padding-bottom: 0;
+}
 
+.done {
+  padding-top: 0px;
 }
 
 h3 {
@@ -22,29 +17,145 @@ h3 {
 }
 
 .jumbotron {
-  background-image: url('https://images.unsplash.com/photo-1456324504439-367cee3b3c32?crop=entropy&dpr=2&fit=crop&fm=jpg&h=700&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1300');
   background-size: cover;
+}
+
+#mainj{
+  background-image: url('https://images.unsplash.com/photo-1456324504439-367cee3b3c32?crop=entropy&dpr=2&fit=crop&fm=jpg&h=700&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1300');
+  margin:0;
+  border:0;
   height: 500px;
 }
 
+#secondj {
+    background-color: #7FD0EC; /* For browsers that do not support gradients */
+    background-color: -webkit-linear-gradient(#79E2E1, #7FD0EC); /* For Safari 5.1 to 6.0 */
+    background-color: : -o-linear-gradient(#79E2E1, #7FD0EC); /* For Opera 11.1 to 12.0 */
+    background-color: -moz-linear-gradient(#79E2E1, #7FD0EC); /* For Firefox 3.6 to 15 */
+    background-color: linear-gradient(#79E2E1, #7FD0EC); /* Standard syntax */
+    position: relative;
+    margin:0;
+    border:0;
+    height: 500px;
+}
+
+#spend {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+#features{
+  margin:0;
+  border:0;
+  background-color: brown;
+  position:relative;
+  height: 500px;
+}
+
+#priorityText {
+  color: white;
+  float: right;
+  padding-top: 50px;
+}
+
+#priorityText2 {
+  color: white;
+  float: right;
+  padding-top: 50px;
+  margin:0;
+  border:0;
+}
+
+#phoneScreen {
+  margin:0px 0px 550px 330px;
+  border:0;
+  transform: translate(-50%, -55%);
+}
+
+#quotesj {
+    background-color: #7FD0EC; /* For browsers that do not support gradients */
+    background-color: -webkit-linear-gradient(#79E2E1, #7FD0EC); /* For Safari 5.1 to 6.0 */
+    background-color: : -o-linear-gradient(#79E2E1, #7FD0EC); /* For Opera 11.1 to 12.0 */
+    background-color: -moz-linear-gradient(#79E2E1, #7FD0EC); /* For Firefox 3.6 to 15 */
+    background-color: linear-gradient(#79E2E1, #7FD0EC); /* Standard syntax */
+    position: relative;
+    margin:0;
+    border:0;
+    position: relative;
+    height: 500px;
+}
+
+.quotesmulti {
+  padding-top:50px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 nav {
-display: flex;
+  display: flex;
   justify-content: flex-end;
 }
 
+.motto {
+  font-family: GothamBook;
+  color: white;
+  font-size: 48px !important;
+  line-height: :10px !important;
+  margin-top: 100px;
+}
 
-.open {
+#final {
+  background-color: : #7FD0EC;
+}
+
+footer {
+    background-color: : #7FD0EC !important;
+    background: #7FD0EC
+    display: flex;
+    justify-content: flex-end;
+    color: #7FD0EC !important;
 
 }
 
-.features {
-
+.opener {
+  background: #7FD0EC;
+  height: 500px;
+  align-content: center;
+  color: white;
+  padding-top: 225px;
+  font-size: 36px;
+  font-family: GothamBook;
+  text-align: center;
+  margin: 0px;
+  border: 0px;
 }
 
-.quotes {
-
+#appstore {
+  width: 100px;
+  height:auto;
 }
 
-.finalCall {
+#playstore {
+  width: 100px;
+  height:auto;
+}
 
+#finalCall {
+  background: white;
+  height: 400px;
+  color: #7FD0EC;
+  position: relative;
+}
+
+#finalc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
