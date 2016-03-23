@@ -5,13 +5,14 @@
   <title>RISEapp</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="bootstrap.css">
+<link rel="stylesheet" type="text/css" href="bootstrap..min.css">
 <link rel="stylesheet" type="text/css" href="font-awesome.css">
 <link rel="stylesheet" type="text/css" href="main.css">
-
 <head>
+
 <body>
-  <nav class="navbar navbar-default">
-  <div class="container-fluid">
+  <nav class="navbar">
+  <div class="container">
     <div class="navbar-header">
       <h1>RISE</h1>
     </div>
@@ -24,6 +25,7 @@
     <div class="col-md-5 col-md-offset-1">
       <h1>Your day.</h1>
       <h1>Done.</h1>
+      <button type="button" class="btn btn-secondary-outline">Free Download</button>
     </div>
   </div>
 </div>
@@ -38,13 +40,48 @@
 </div>
 
 <div class="jumbotron">
-  <div class="container" id="prioritization">
-    <div class="row">
-    <div class="col-md-12">
-      <h2><strong>Prioritization built in.</strong></h2>
-      <h2>Choose only the most important items to focus on.</h2>
-    </div>
-  </div>
+<div class="container">
+        <div id="myCarousel" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="item active">
+            <div class="row col-md-3 col-md-offset-3">
+              <img src="images/phoneScreen.png" alt="">
+                </div>
+            <div class="row">
+              <div class="carousel-caption">
+                <h3>Sponsor 1</h3>
+                <p>Text text text</p>
+              </div>
+            </div>
+
+            </div>
+            <div class="item">
+              <div class="row col-md-3 col-md-offset-3">
+              <img src="images/phoneScreen.png" alt="">
+            </div>
+            <div class="row">
+              <div class="carousel-caption">
+                <h3>Sponsor 2</h3>
+                <p>Text text text</p>
+              </div>
+            </div>
+            </div>
+            <div class="item">
+              <div class="row col-md-3 col-md-offset-3">
+              <img src="images/phoneScreen.png" alt="">
+            </div>
+            <div class="row">
+              <div class="carousel-caption">
+                <h3>Sponsor 3</h3>
+                <p>Text text text</p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="fa fa-chevron-left fa-3x"></i></a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="fa fa-chevron-right fa-3x"></i></a>
+        </div>
+      </div>
 </div>
 
 <div class="jumbotron">
@@ -59,19 +96,22 @@
 </div>
 
 <div class="jumbotron">
-  <div class="container">
+  <div class="container" id="finalaction">
     <div class="row">
-    <div class="col-md-12">
-      <h3><strong>Finish your day.</strong></h3>
+    <div class="col-md-5 col-md-offset-3">
+      <div id="bottomfooter">
+      <h2><strong>Finish your day.</strong></h2>
+      <img src="images/appstore.png" class="badges">
+      <!-- <img src="images/playstore.png" class="badges"> -->
+    </div>
     </div>
   </div>
 </div>
 
 <div class="jumbotron">
-  <div class="container">
+  <div class="container" id="footerlast">
     <div class="row">
-    <div class="col-md-12">
-      <h3><strong>FOOTER</strong></h3>
+    <div class="col-md-2">
       <i class="fa fa-facebook-official fa-3x"></i>
       <i class="fa fa-twitter-square fa-3x"></i>
     </div>
@@ -79,6 +119,31 @@
 </div>
 
 
+
+<div class="jumbotron">
+  <div class="container" id="prioritization">
+    <div class="row">
+    <div class="col-md-12">
+      <h2><strong>Prioritization built in.</strong></h2>
+      <h2>Choose only the most important items to focus on.</h2>
+    </div>
+  </div>
+</div>
+
+<script src="bootstrap.min.js"></script>
+<script src="jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+  $(function(){
+    $('#myCarousel').carousel();
+  })
+  </script>
+
+
+
+
+
+<script type="text/javascript" src="jquery-1.12.2.js"></script>
+<script type="text/javascript" src="bootstrap.js"></script>
 
 
 </body>

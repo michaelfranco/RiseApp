@@ -1,6 +1,48 @@
+.badges {
+  width: 200px;
+  height:auto;
+  padding-top: 20px;
+}
 
+i {
+  float: right;
+}
 
-nav {
+a {
+  opacity: 0;
+}
+
+.jumbotron {
+  margin:0;
+  padding:0;
+}
+
+.fa-chevron-left  {
+  padding-top: 175px;
+  color: white;
+}
+
+.fa-chevron-right  {
+  padding-top: 175px;
+  color: white;
+}
+
+.carousel-control {
+  background-color: white;
+}
+
+#myCarousel {
+  background-color: white;
+}
+
+.carousel-caption {
+  /*transform: translate(200%, -70%);*/
+  color: black;
+  padding-left: 200px;
+  padding-bottom: 140px;
+}
+
+navbar {
   margin: 0px;
   padding: 0px;
 }
@@ -11,12 +53,43 @@ nav {
 
 #motto {
   height: 500px;
+  background-image: #7FD0EC; /* For browsers that do not support gradients */
+  background-image: -webkit-linear-gradient(180deg,#79E2E1, #7FD0EC); /* For Safari 5.1 to 6.0 */
+  background-image: : -o-linear-gradient(180deg, #79E2E1, #7FD0EC); /* For Opera 11.1 to 12.0 */
+  background-image: -moz-linear-gradient(180deg, #79E2E1, #7FD0EC); /* For Firefox 3.6 to 15 */
+  background-image: linear-gradient(180deg, #79E2E1, #7FD0EC); /* Standard syntax */
+  color: white;
 }
 
 #prioritization {
   height: 500px;
 }
 
-#quotes {
+#quotess {
   height: 500px;
+  background-image: #7FD0EC; /* For browsers that do not support gradients */
+  background-image: -webkit-linear-gradient(180deg,#79E2E1, #7FD0EC); /* For Safari 5.1 to 6.0 */
+  background-image: : -o-linear-gradient(180deg, #79E2E1, #7FD0EC); /* For Opera 11.1 to 12.0 */
+  background-image: -moz-linear-gradient(180deg, #79E2E1, #7FD0EC); /* For Firefox 3.6 to 15 */
+  background-image: linear-gradient(180deg, #79E2E1, #7FD0EC); /* Standard syntax */
+  color: white;
+}
+
+#finalaction {
+  height: 300px;
+  background-color: white;
+  text-align: center;
+}
+
+#bottomfooter {
+  margin: 70px;
+}
+
+#footerlast {
+  height: 60px;
+  background-image: #7FD0EC; /* For browsers that do not support gradients */
+  background-image: -webkit-linear-gradient(180deg,#79E2E1, #7FD0EC); /* For Safari 5.1 to 6.0 */
+  background-image: : -o-linear-gradient(180deg, #79E2E1, #7FD0EC); /* For Opera 11.1 to 12.0 */
+  background-image: -moz-linear-gradient(180deg, #79E2E1, #7FD0EC); /* For Firefox 3.6 to 15 */
+  background-image: linear-gradient(180deg, #79E2E1, #7FD0EC); /* Standard syntax */
 }
