@@ -3,6 +3,42 @@
   height:auto;
   padding-top: 20px;
 }
+#background2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 500px;
+    height: auto;
+    /*z-index: -1;*/
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+
+
+button {
+  background-color: red;
+  color:blue;
+  /* First we need to help some browsers along for this to work.
+     Just because a vendor prefix is there, doesn't mean it will
+     work in a browser made by that vendor either, it's just for
+     future-proofing purposes I guess. */
+  -o-transition:1s;
+  -ms-transition:1s;
+  -moz-transition:1s;
+  -webkit-transition:1s;
+  /* ...and now for the proper property */
+  transition:1s;
+}
+button:hover {
+  color:#7FD0EC;
+  background-color: white !important;
+ }
 
 i {
   float: right;
@@ -10,6 +46,7 @@ i {
   padding-right: 20px;
   padding-top: 7px;
 }
+
 
 h1 {
   color: #7FD0EC;
@@ -61,8 +98,8 @@ h4 {
 
 .carousel-caption {
   /*transform: translate(200%, -70%);*/
-  color: black;
-  padding-left: 200px;
+  color: #7FD0EC;
+  padding-left: 250px;
   padding-bottom: 140px;
 }
 
@@ -73,6 +110,8 @@ navbar {
 
 #mainbanner {
   height: 500px;
+  position: relative;
+   overflow: hidden;
 }
 
 #motto {
@@ -131,6 +170,7 @@ navbar {
 
 .headertitle {
   padding-top: 100px;
+  color: white;
 }
 
 #prioritization {
